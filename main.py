@@ -9,7 +9,7 @@ abstand = "60"
 #Maximale pings, auf None lassen wenn unbegrenzt
 max_ping = None
 #Hier muss man "1" eintragen wenn man auch die Erfolgreichen Pings geloggt haben möchte, bei einem anderen Wert werden nur die fehlgeschlagenen Pings geloggt
-log_level = "1"
+log_level = "0"
 if (log_level == "0"):
     temp = "Das Loglevel ist bei 0, daher werden nur fehlgeschlagene Pings geloggt."
 else:
