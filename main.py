@@ -29,7 +29,7 @@ else:
     max_ping2 = max_ping
 try:
     while not (max_ping2 == 0):
-        response = os.system("ping " + ip_addr)
+        response = os.system("ping -c 1" + ip_addr)
         aktuelle_zeit = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
         datei = open(file, "a")
         if response == 0:
